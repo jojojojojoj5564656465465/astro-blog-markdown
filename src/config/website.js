@@ -2,9 +2,9 @@ const facebookPageName = import.meta.env ? import.meta.env.PUBLIC_FACEBOOK_PAGE 
 const facebookAuthorPageName = import.meta.env ? import.meta.env.PUBLIC_FACEBOOK_AUTHOR_PAGE : '';
 
 const website = {
-	author: 'Rodney Johnson',
+	author: 'jojo Johnson',
 	ogLanguage: 'en_GB',
-	siteLanguage: 'en-GB',
+	siteLanguage: 'fr-FR',
 	siteTitle: 'Astro Blog Markdown',
 	siteShortTitle: 'Astro Blog',
 	siteUrl: import.meta.env ? /** @type {string} */ (import.meta.env.PUBLIC_SITE_URL) : '',
@@ -20,9 +20,9 @@ const website = {
 	linkedinProfile: import.meta.env ? import.meta.env.PUBLIC_LINKEDIN_PROFILE : '',
 	telegramUsername: import.meta.env ? import.meta.env.PUBLIC_TELEGRAM_USERNAME : '',
 	tiktokUsername: import.meta.env ? import.meta.env.PUBLIC_TIKTOK_USERNAME : '',
-	twitterUsername: import.meta.env ? import.meta.env.PUBLIC_TWITTER_USERNAME : '',
-	twitterUserId: import.meta.env ? import.meta.env.PUBLIC_TWITTER_ID : '',
-	wireUsername: import.meta.env ? import.meta.env.PUBLIC_WIRE_USERNAME : '',
+	twitterUsername: import.meta.env ? import.meta.env.PUBLIC_TWITTER_USERNAME : 'testt',
+	twitterUserId: import.meta.env ? import.meta.env.PUBLIC_TWITTER_ID : 'test',
+	wireUsername: import.meta.env ? import.meta.env.PUBLIC_WIRE_USERNAME : 'test',
 };
 
 export default website;
